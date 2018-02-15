@@ -6,4 +6,24 @@ Veamos otro ejemplo, alguna vez que te mojaste bajo la lluvia y al día siguient
 
 Así es, todo lo que realizamos tiene lógica detrás, es algo cotidiano, que, aunque realicemos de forma automática, lleva una serie de procedimientos obvios que sabemos que funcionan, o sabemos que toda acción tiene su reacción por lógica.
 
-Definir la lógica sin tomar un diccionario es complejo, pero creo que todos comprendemos el punto. Ahora bien, la lógica de la programación no es distinta, aprenderás una serie de técnicas que te permitirán resolver problemas computacionales de forma “lógica”, tal como abrochar una camisa, con práctica verás que será automático. 
+Definir la lógica sin tomar un diccionario es complejo, pero creo que todos comprendemos el punto. Ahora bien, la lógica de la programación no es distinta, aprenderás una serie de técnicas que te permitirán resolver problemas computacionales de forma “lógica”, tal como abrochar una camisa, con práctica verás que será automático.
+
+### Solucionando problemas de lógica 
+
+Para resolver un problema, nuestra primera dificultad es encontrar una solución. Perdón que menciono tantas cosas obvias, pero es importante recordar estos conceptos.
+
+Como sabes pocas veces nos detenemos a entender los detalles del problema, para determinar una serie de pasos que nos pueden llevar a una solución, regularmente todo esto sucede en automático.
+
+Veamos este ejemplo, es tu primer día de clases y te asignan el salón 3-405, por supuesto tu solo conoces la oficina de información y la administración de tu facultad.
+
+Sin temor a equivocarme, la mayoría de las personas intentamos ir por nuestra cuenta a descubrir cuál es la lógica detrás de la numeración de los salones, primero sabes que es un edificio único, por lo tanto, el número 3, puede indicar el nivel del edificio, así que subimos al tercer nivel del edificio, ahora apuntamos nuestra mirada a los primeros salones y nos damos cuenta de que indica 3-401, 3-402, etc.
+
+Felicitaciones nuestra lógica era correcta, tal como vimos al inicio sin darte cuenta estableciste una serie de pasos para resolver este problema y dar con la solución.
+
+Con este ejemplo también quiero resaltar que para resolver cualquier problema debemos tener un objetivo claro, en este caso era llegar al salón 3-405, imagina que no tuvieras el número de salón Sin duda hubieras acudido a la oficina de información a que te lo proporcionaran, así es a que te dieran un objetivo que te permitiera saber, hacia donde vas, y hacia donde debes llegar.
+
+Aunque parece que dije lo mismo, saber a donde vas y a donde debes llegar no es lo mismo, puedes saber a donde te diriges, pero no saber cuándo debes detenerte.
+
+Entonces para poder visualizar bien el camino a seguir para la solución de cualquier problema, debemos tener claro cuál es nuestro objetivo.
+
+Ahora bien, este camino que te comento tiene un nombre, y es el siguiente tema que veremos.
