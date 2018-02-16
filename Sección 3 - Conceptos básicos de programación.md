@@ -11,3 +11,14 @@ Por ejemplo, veamos como representar el número 14 en bits. Funciona igual que l
 |0|0|0|0|1|1|1|0
 
 Así que ese es el número binario que representa el 14 = 00001110, que es 8+4+2
+
+## valores
+Imagina ver un cielo lleno de bits, una computadora moderna típica tiene más de 30 mil millones de bits en su almacenamiento de datos volátil (memoria RAM). El no volátil tiene aún más.
+
+Para que podamos trabajar con tantos bits sin perdernos, podemos agruparlos en trozos que representen piezas de información, en este caso estos trozos los llamamos valores.
+
+Como podemos darnos cuenta más adelante cada valor tiene un tipo que nos ayudará a determinar su rol. Concluyamos entonces que un valor esta representado por una serie de bits.
+
+// averiguar lo de los datos
+
+Ahora veamos lo que mencionamos anteriomente, cada valor tiene un tipo y esto determinará su rol, veamos entonces los tipos de valores simples.
