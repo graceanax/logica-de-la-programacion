@@ -21,4 +21,55 @@ Como podemos darnos cuenta más adelante cada valor tiene un tipo que nos ayudar
 
 // averiguar lo de los datos
 
-Ahora veamos lo que mencionamos anteriomente, cada valor tiene un tipo y esto determinará su rol, veamos entonces los tipos de valores simples.
+Ahora veamos lo que mencionamos anteriomente, cada valor tiene un tipo y esto determinará su rol, veamos entonces
+ tipos de valores simples y operaciones que podemos realizar con ellos.
+
+### Números
+No es ninguna sopresa que los valores de este tipo esten representados por números, veamos un ejemplo:
+
+~~~
+22
+~~~
+
+Tal cual si utilizamos este número **22** en un programa, causará que el patrón de bits para el número 13 exista dentro de la memoria de la computadora.
+
+Algo que me gustaría aclarar es que en el caso de los números decimales hacemos uso de **"."** para delimitar la parte entera de su fracción
+
+~~~
+7.34
+~~~
+
+#### Operadores aritméticos
+Con estas operaciones podemos realizar lo principal que realizamos con la arimética (suma, resta, multiplicación y división).
+
+únicamente que para realizar estas operaciónes utilizaremos los siguiente operadores aritméticos.
+
+|Operación|Operador|
+|--|--|
+|Suma|+|
+|Resta|-|
+|Multiplicación|*|
+|División|/|
+|Módulo|%|
+
+¿Te has fijado en el último operador? Es posible que no lo reconozcas, el operador aritmético llamado **modulo** podemos obtener el *sobrante* de una división, por ejemplo:
+
+Dividir **10/2** rel resultado sería **5** y siendo 2 divisible entre 10, obtendremos 0 como sobrante, por lo tanto podemos representar el modulo de la siguiente forma:
+
+~~~
+10%2
+=> 0
+~~~
+
+Nos tenemos que dar cuenta también de la precedencia de los operadores, en este caso, la suma y resta tienen la misma precedencia, la multiplicación, división y módulo tienen la misma precedencia, por lo tanto si realizamos la siguiente operación:
+~~~
+1+4*6
+~~~
+La multiplicación se realizará primero, pero en el caso que exista operciones con símbolos de la misma precedencia, se aplican los operadores de izquierda a derecha.
+
+De igula forma puedes romper la precedencia de operadores utilizando parentecis, como el siguiente ejemplo:
+
+~~~
+(1+2) * 1
+~~~
+En este caso primero se realizará la operación dentro de los parentesis, esto es bueno, si tienes dudas puedes usar parentecis para evitar problemas de precedencia.
