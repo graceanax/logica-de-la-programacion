@@ -1,4 +1,4 @@
-### Conceptos básicos de la programación
+### Valores: cadenas y números
 ## Introduccción
 En una computadora solo existen datos, los cuales se pueden leer, modificar y crear. Los datos son guardados en largas secuencias de bits.
 
@@ -73,3 +73,50 @@ De igula forma puedes romper la precedencia de operadores utilizando parentecis,
 (1+2) * 1
 ~~~
 En este caso primero se realizará la operación dentro de los parentesis, esto es bueno, si tienes dudas puedes usar parentecis para evitar problemas de precedencia.
+
+### Cadenas
+Este tipo de dato es utilizado para representar texto. Para utilizarlas es necesario limitar su contenido entre comillas dobles o bien simples, siempre y cuando el tipo de comilla coicida  al principio y final.
+
+~~~
+"Hola, soy una cadena"
+'Hola, soy una cadena'
+~~~
+
+La unidad mínima de una cadena -una letra, o símbolo- la llamamos **caracter** por lo tanto, una serie de **caracteres** es una **cadena**.
+
+~~~
+Somos Caracteres = "a", "x", "?"
+Somos Cadenas = "Hola", "Lógica de la programación"
+~~~
+**Nota:** algo que debemos tomar en cuenta, es que en una cadena de texto, no podemos dar saltos de linea (Enter) como acostumbramos para dividir un párrafo.
+
+¿Entonces cómo podemos hacer si deseamos escribir un texto con párrafos?
+
+Tenemos una solución llamada **caracteres de escape** es una notación que hace uso de la diagonal invertida (backslash: **\** ) más el caracter **n**, entonces **\n** se interpreta como una nueva línea en nuestra cadena.
+
+Ejemplo:
+~~~
+"Esta es la primera línea \nY esta es la segunda"
+~~~
+Por supuesto en este texto no verás el verdadero comportamiento, te invito a que hagamos la prueba en el navegador.
+
+Te invito a que investigues otros caracteres de escape, para las cadenas.
+
+Regresando un poco al tema anterior, no sé si te preguntaste ¿Qué sucede si yo dentro de mi cadena deseo agregar un trozo de texto entre comillas?.
+
+Para eso tenemos una elegante solución, permiteme te la muestro.
+
+~~~
+'Dice mi papá, "La ley aplica para todos"'.
+~~~
+Exacto, por eso es excelente poder usar ambos tipos de comillas para agregar cadenas.
+
+### Concatenación
+En el caso de las cadenas, no podemos realizar operaciones aritméticas con ellas como en el caso de los números, pero el caracter **+** nos permite **concatenarlas** que no es lo mismo que sumar, en este caso *pega* dos cadenas, creando una sola. Por ejemplo:
+
+~~~
+"con"+"ca"+"te"+"na"
+=> "concatena"
+~~~
+
+Así es, nos ha devuelto una sola cadena de caracteres, veremos más adelante que esta posibilidad es muy útil.
